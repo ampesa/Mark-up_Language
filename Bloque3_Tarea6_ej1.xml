@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	===============================
+	Lenguajes de Marcas
+	Bloque 3, tarea 6.
+	Alumno: Amadeo Penella Santarremigia
+	===============================
+	  
+  + Definimos que el documento ej1.xml tiene una hoja de estilo (xml-stylesheet) 
+	  delt tipo text/xsl y que dicha hoja está en el documentos ej1.xsl ubicado 
+	  en la misma carpeta que el xml
+	  
+	+ Añadimos unos cuantos CD's más
+	  
+  + Añadimos un par de CD's de "The Cure" para realizar la tarea 3
+    
+  + Añadimos un par más de CD's de un nuevo intérprete para realizar la tarea 4 (condicionales con if)
+	  
+  + Añadimos dos CD's más al final para realizar la tarea 5. Uno con importe de 10,50 y otro de 60,50
+    
+  + Añadimos el elemento num_canciones con valores mayores y menores de 10 para realizar la tarea 6.
+    
+	-->
+	
+<?xml-stylesheet version="1.0" type="text/xsl" href="Bloque3_Tarea6_ej1.xsl"?>
+<cds>
+	<cd>
+		<titulo>babilonia</titulo>
+		<interprete>revolver</interprete>
+		<anyo>2015</anyo>
+		<estilo>pop-rock</estilo>
+		<precio>23.00</precio>
+		<duracion>70 min.</duracion>
+		<num_canciones>7</num_canciones>
+	</cd>
+	<cd>
+		<titulo>Comes</titulo>
+		<interprete>The Liberty</interprete>
+		<anyo>2015</anyo>
+		<estilo>pop</estilo>
+		<precio>13.00</precio>
+    <duracion>55 min.</duracion>
+		<num_canciones>12</num_canciones>
+	</cd>
+	<cd>
+		<titulo>Wallflower</titulo>
+		<interprete>Diana Krall</interprete>
+		<anyo>2014</anyo>
+		<estilo>pop</estilo>
+		<precio>12.00</precio>
+		<duracion>49 min.</duracion>
+		<num_canciones>9</num_canciones>
+	</cd>
+  <cd>
+		<titulo>Flash Gordon</titulo>
+		<interprete>Queen</interprete>
+		<anyo>1980</anyo>
+		<estilo>Rock</estilo>
+		<precio>7.99</precio>
+		<duracion>60 min.</duracion>
+		<num_canciones>11</num_canciones>
+	</cd>
+  <cd>
+		<titulo>The Wall</titulo>
+		<interprete>Pink Floyd</interprete>
+		<anyo>1979</anyo>
+		<estilo>Rock</estilo>
+		<precio>15.00</precio>
+		<duracion>67 min.</duracion>
+		<num_canciones>8</num_canciones>
+	</cd>
+  <cd>
+		<titulo>Waiting for the Sun</titulo>
+		<interprete>The Doors</interprete>
+		<anyo>1968</anyo>
+		<estilo>pop</estilo>
+		<precio>21.00</precio>
+		<duracion>58 min.</duracion>
+		<num_canciones>8</num_canciones>
+	</cd>
+  <cd>
+		<titulo>Seventeen Seconds</titulo>
+		<interprete>The Cure</interprete>
+		<anyo>1980</anyo>
+		<estilo>pop</estilo>
+		<precio>14.00</precio>
+		<duracion>45 min.</duracion>
+		<num_canciones>13</num_canciones>
+	</cd>
+  <cd>
+		<titulo>Boys Don't Cry</titulo>
+		<interprete>The Cure</interprete>
+		<anyo>1980</anyo>
+		<estilo>pop</estilo>
+		<precio>12.00</precio>
+		<duracion>56 min.</duracion>
+		<num_canciones>13</num_canciones>
+	</cd>
+  <cd>
+		<titulo>Pornography</titulo>
+		<interprete>The Cure</interprete>
+		<anyo>1982</anyo>
+		<estilo>pop</estilo>
+		<precio>16.00</precio>
+		<duracion>42 min.</duracion>
+		<num_canciones>11</num_canciones>
+	</cd>
+  <cd>
+		<titulo>A Mouthful</titulo>
+		<interprete>The Do</interprete>
+		<anyo>2008</anyo>
+		<estilo>pop</estilo>
+		<precio>20.00</precio>
+		<duracion>36 min.</duracion>
+		<num_canciones>7</num_canciones>
+	</cd>
+  <cd>
+		<titulo>T.N.T.</titulo>
+		<interprete>AC/DC</interprete>
+		<anyo>1975</anyo>
+		<estilo>Rock</estilo>
+		<precio>10.50</precio>
+		<duracion>48 min.</duracion>
+		<num_canciones>9</num_canciones>
+	</cd>
+  <cd>
+		<titulo>Back in Black</titulo>
+		<interprete>AC/DC</interprete>
+		<anyo>1980</anyo>
+		<estilo>Rock</estilo>
+		<precio>12.50</precio>
+		<duracion>59 min.</duracion>
+		<num_canciones>18</num_canciones>
+	</cd>
+  <cd>
+		<titulo>Faith</titulo>
+		<interprete>George Michael</interprete>
+		<anyo>1987</anyo>
+		<estilo>Pop</estilo>
+		<precio>10.50</precio>
+		<duracion>57 min.</duracion>
+		<num_canciones>14</num_canciones>
+	</cd>
+  <cd>
+		<titulo>Purple Rain</titulo>
+		<interprete>Prince</interprete>
+		<anyo>1984</anyo>
+		<estilo>Pop</estilo>
+		<precio>60.50</precio>
+		<duracion>59 min.</duracion>
+		<num_canciones>8</num_canciones>
+	</cd>
+</cds>
